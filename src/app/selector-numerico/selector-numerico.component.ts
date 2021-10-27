@@ -15,7 +15,6 @@ export class SelectorNumericoComponent implements OnInit {
   ngOnInit(): void {
     this.maximo = Number(this.maximo);
     this.minimo = Number(this.minimo);
-    console.log("maxio: ", this.maximo, " minimo: ", this.minimo);
     this.actual = this.minimo;
   }
 
